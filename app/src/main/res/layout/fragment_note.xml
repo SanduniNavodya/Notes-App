@@ -69,15 +69,15 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvNote"
         android:layout_width="match_parent"
-        android:layout_height="209dp"
-        android:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="298dp"
         android:layout_marginTop="130dp"
         android:clipToPadding="false"
-        android:paddingStart="6dp"
+        android:padding="6dp"
         android:paddingBottom="5dp"
-        android:transitionGroup="true">
+        android:transitionGroup="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/note_item_layout" />
 
-    </androidx.recyclerview.widget.RecyclerView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -122,9 +122,9 @@
             app:tint="@color/white"
             app:fabSize="normal"
             app:borderWidth="0dp"
-            app:useCompatPadding="false">
+            app:useCompatPadding="false"
+            android:importantForAccessibility="no" />
 
-        </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
         <TextView
             android:layout_width="wrap_content"

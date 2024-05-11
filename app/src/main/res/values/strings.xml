@@ -18,4 +18,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="my_notes">My Notes</string>
+    <string name="this_is_a_title">This is a title</string>
+    <string name="dd_mm_yy">dd-mm-yy</string>
+    <string name="edited_on_">Edited On</string>
+    <string name="note_title">Note Title</string>
+    <string name="note">Note</string>
 </resources>
